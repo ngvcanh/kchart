@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <canvas id="mychart" width="1200" height="500"></canvas>
+  <script src="./js/kchar.js"></script>
+  <script>
+
+    (function(){
+
+      new KChart('mychart', {
+        theme : 'dark',
+        data : {
+          labels : []
+        }
+      });
+
+    })();
+
+  </script>
+</body>
+</html>
